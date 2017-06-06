@@ -1,0 +1,51 @@
+
+.clearfix {
+    clear: both;
+}
+
+/* Styles zu Eintrag hinzufügen */
+.new-article label {
+    float: left;
+}
+.new-article #title {
+    width: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+/* Styles zur Detailseite */
+.blog-header h2 {
+    float: left;
+}
+.blog-header .delete-entry {
+    margin-left: 10px;
+}
+
+.blog-author {
+    clear: both;
+}
+
+/* Styles zu den Kommentaren */
+.comments label {
+    display: block;
+    width: 150px;
+    float: left;
+}
+
+.comments input {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.comments .comment-count {
+    margin-top: 15px;
+}
+
+.comments .comment-count,
+.comments .comment-new {
+    text-decoration: underline;
+}
+
+.comments .new-comment-error {
+    color: red;
+}

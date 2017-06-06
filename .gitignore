@@ -1,0 +1,7 @@
+# Eclipse related paths
+.buildpath
+.project
+.settings
+
+# Templates: Compiled Verion
+Templates/compiled/
